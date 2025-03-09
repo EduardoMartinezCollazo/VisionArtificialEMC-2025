@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt 
 
-img = cv2.imread('fotos/bill.jpg',cv2.IMREAD_GRAYSCALE) #asignar a la variable img los datos de bill que se encuenta en la carpeta fotos, donde se va a hacer la lectura a base de grises
+img = cv2.imread('001_Practica 1/fotos/bill.jpg',cv2.IMREAD_GRAYSCALE) #asignar a la variable img los datos de bill que se encuenta en la carpeta fotos, donde se va a hacer la lectura a base de grises
 
 #otros tipos de interpretacion de las imagenes
 #IMREAD_COLOR = 1
@@ -19,4 +19,4 @@ plt.imshow(img, cmap='plasma',interpolation='bicubic') #mostrar la imagen con un
 plt.plot([275,50],[280,50],'c',linewidth=5)    #incertar en la imagen una linea en las cordenadas y con line de grosor 5
 plt.show()
 
-#cv2.imwrite('fotos/bill mejorado.png',img)
+#cv2.imwrite('001_practica 1/fotos/bill mejorado.png',img)
