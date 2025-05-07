@@ -5,6 +5,11 @@ import numpy as np
 img1 = cv2.imread('001_arithmetics_Logic/fotos/bill.jpg')
 img2 = cv2.imread('001_arithmetics_Logic/fotos/gravy.jpg')
 
+img3 = cv2.imread('001_arithmetics_Logic/fotos/py.png')
+img4 = cv2.imread('001_arithmetics_Logic/fotos/py.png')
+add = img3+img4
+cv2.imshow('add',add)
+
 # I want to put logo on top-left corner, So I create a ROI
 rows,cols,channels = img2.shape
 roi = img1[0:rows, 0:cols ]
